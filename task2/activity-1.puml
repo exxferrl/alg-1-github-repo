@@ -2,22 +2,22 @@
 
 start
 
-switch ( число потоков )
-case ( равно 1 )
-  :1 поток;
-case ( равно 2 ) 
-  :2 потока;
-case ( равно 3 )
-  :3 потока;
-case ( равно 4 )
-  :4 потока
+switch ( threads number )
+case ( equal 1 )
+  :1 thread;
+case ( equal 2 ) 
+  :2 thread;
+case ( equal 3 )
+  :3 thread;
+case ( equal 4 )
+  :4 thread
   ----
-  срочное
-  завершение
+  emergency
+  end
   kill;
   kill
-case ( равно 5 )
-  :5 потоков;
+case ( equal 5 )
+  :5 thread;
 endswitch
 
 stop
