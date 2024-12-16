@@ -22,7 +22,7 @@ void print_hello(int id, double& sum)
 int main()
 {
     double sum =0;
-    cout <<"MAAAAAAAAAAAAAAAAAAAAAAIN"<<endl;
+    cout <<"MAIN"<<endl;
     vector<thread> threads;
     for (int i=0; i<8; i++)
     {
@@ -50,7 +50,7 @@ int main()
 //     {
 //         threads.push_back(thread(print_hello));
 //     }
-//     cout <<"MAAAAAAAAAAAAAAAAAAAAAAIN"<<endl;
+//     cout <<"MAIN"<<endl;
 //     //Ожидаем присоединения потока
 //     for (auto& th: threads)
 //     {
@@ -67,7 +67,7 @@ int main()
 
 // int main()
 // {
-//     cout <<"MAAAAAAAAAAAAAAAAAAAAAAIN"<<endl;
+//     cout <<"MAIN"<<endl;
 //     thread thread2(print_hello);
 //     thread2.join();
 //     return 0;
